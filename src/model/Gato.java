@@ -24,7 +24,7 @@ public class Gato extends Animal implements Vacunable, Asegurable {
     }
 
     @Override
-    public void getVacunasAplicadas() {
+    public int getVacunasAplicadas() {
         return contadorVacunas;
     }
 
